@@ -1,7 +1,7 @@
 import { FC } from "react";
 
-const ArticlesList: FC = () => {
+const Filter: FC = () => {
   return <div>Articles list</div>;
 };
 
-export default ArticlesList;
+export default Filter;
