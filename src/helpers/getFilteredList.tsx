@@ -1,4 +1,4 @@
-import { Article } from "./types";
+import { Article } from "../types";
 
 export const getFilteredList = (list: Article[], keywords: string[]) => {
   if (keywords.length === 0) return list;

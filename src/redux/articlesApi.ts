@@ -1,6 +1,6 @@
 import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { Article } from "../helpers/types";
+import { Article } from "../types";
 
 axios.defaults.baseURL = "https://api.spaceflightnewsapi.net/v3/articles";
 

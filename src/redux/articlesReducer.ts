@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 import { getLatestArticles } from "../redux/articlesApi";
-import { ArticlesState } from "../helpers/types";
+import { ArticlesState } from "../types";
 
 const initialState: ArticlesState = {
   list: [],
