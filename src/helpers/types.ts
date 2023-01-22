@@ -20,3 +20,10 @@ export type Article = {
     }
   ];
 };
+
+export type ArticlesState = {
+  list: Article[];
+  loading: boolean;
+  error: string | null | undefined;
+  filter: string;
+};
