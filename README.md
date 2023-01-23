@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef95d63b-3f01-49da-9ea4-6da6edd12096/deploy-status)](https://app.netlify.com/sites/codebridge-test-bs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef95d63b-3f01-49da-9ea4-6da6edd12096/deploy-status)](https://codebridge-test-bs.netlify.app)
 
 You need to build Single Page Application with React.
 
