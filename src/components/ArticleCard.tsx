@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { useNavigate } from "react-router-dom";
-import { Article } from "../types";
+
 import {
   Typography,
   Card,
@@ -13,6 +13,7 @@ import { SlArrowRight } from "react-icons/sl";
 import { FiCalendar } from "react-icons/fi";
 import Highlighter from "react-highlight-words";
 import { useAppSelector } from "../hooks/storeHooks";
+import { Article } from "../types";
 import { getFormatedDate } from "../helpers/getFormatedDate";
 
 const ArticleCard: FC<Article> = (article) => {
