@@ -31,7 +31,7 @@ const ArticleCard: FC<Article> = (article) => {
         />
         <CardContent
           sx={{
-            minHeight: "250px",
+            minHeight: "290px",
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",

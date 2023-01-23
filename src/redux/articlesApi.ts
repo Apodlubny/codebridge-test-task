@@ -10,7 +10,7 @@ export const getLatestArticles = createAsyncThunk<
   { rejectValue: string }
 >("getLatestArticles", async (_, { rejectWithValue }) => {
   try {
-    const { data } = await axios.get("?_limit=40");
+    const { data } = await axios.get("?_limit=42");
     return data;
   } catch (error: any) {
     return rejectWithValue(error.message);
