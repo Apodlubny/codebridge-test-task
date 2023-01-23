@@ -1,6 +1,6 @@
 import { RotatingLines } from "react-loader-spinner";
 
-export const Loader = () => {
+const Loader = () => {
   const style = {
     position: "fixed",
     top: "50%",
@@ -19,3 +19,4 @@ export const Loader = () => {
     </div>
   );
 };
+export default Loader;

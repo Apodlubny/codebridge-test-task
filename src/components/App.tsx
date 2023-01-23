@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { getLatestArticles } from "../redux/articlesApi";
 import { useAppDispatch } from "../hooks/storeHooks";
 
-import { Loader } from "../components/Loader";
+import Loader from "../components/Loader";
 
 const Homepage = lazy(() => import("../pages/Homepage"));
 const ArticlePage = lazy(() => import("../pages/ArticlePage"));
